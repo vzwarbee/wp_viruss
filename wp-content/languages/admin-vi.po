@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-14 09:46:53+0000\n"
+"PO-Revision-Date: 2024-09-23 10:07:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -439,7 +439,7 @@ msgstr "Thêm web mới"
 
 #: wp-admin/menu.php:300 wp-admin/plugins.php:757 wp-admin/network/menu.php:106
 msgid "Add New Plugin"
-msgstr "Cài plugin"
+msgstr "Cài Plugin"
 
 #: wp-admin/includes/image-edit.php:80
 msgid "Rotate 180&deg;"
@@ -1213,7 +1213,7 @@ msgstr "%s đã được loại bỏ khỏi cấu trúc đường dẫn cố đ�
 #. translators: %s: Number of critical Site Health checks.
 #: wp-admin/menu.php:367
 msgid "Site Health %s"
-msgstr "Tình trạng trang web %s"
+msgstr "Tình trạng website %s"
 
 #: wp-admin/includes/file.php:24
 msgid "Theme Styles & Block Settings"
@@ -1597,7 +1597,7 @@ msgstr "<strong>media</strong> &mdash; Danh sách các địa chỉ URL tệp me
 
 #: wp-admin/export-personal-data.php:39
 msgid "<strong>Community Events Location</strong> &mdash; The IP Address of the user, which populates the Upcoming Community Events dashboard widget with relevant information."
-msgstr "<strong>Vị trí Sự kiện Cộng đồng</strong> &mdash; Địa chỉ IP của người dùng, được sử dụng để điền thông tin liên quan vào tiện ích bảng điều khiển Sự kiện Cộng đồng sắp tới."
+msgstr "<strong>Vị trí sự kiện cộng đồng</strong> &mdash; Địa chỉ IP của người dùng, được sử dụng để điền thông tin liên quan vào tiện ích trang quản trị sự kiện cộng đồng sắp tới."
 
 #: wp-admin/export-personal-data.php:37
 msgid "WordPress collects (but <em>never</em> publishes) a limited amount of data from registered users who have logged in to the site. Generally, these users are people who contribute to the site in some way -- content, store management, and so on. With rare exceptions, these users do not include occasional visitors who might have registered to comment on articles or buy products. The data WordPress retains can include:"
@@ -1659,11 +1659,11 @@ msgstr "Chỉnh sửa trang web của bạn, hoặc đưa ra một diện mạo 
 
 #: wp-admin/includes/dashboard.php:2127
 msgid "Switch up your site&#8217;s look & feel with Styles"
-msgstr "Thay đổi diện mạo và cảm giác trang web của bạn bằng Kiểu giao diện"
+msgstr "Thay đổi giao diện với kiểu hiển thị"
 
 #: wp-admin/includes/dashboard.php:2115
 msgid "Open the Customizer"
-msgstr "Mở Tuỳ chỉnh"
+msgstr "Mở trình tuỳ chỉnh"
 
 #: wp-admin/includes/dashboard.php:2113
 msgid "Configure your site&#8217;s logo, header, menus, and more in the Customizer."
@@ -1675,7 +1675,7 @@ msgstr "Bắt đầu tuỳ chỉnh"
 
 #: wp-admin/includes/dashboard.php:2110
 msgid "Open site editor"
-msgstr "Mở công cụ sửa trang web"
+msgstr "Mở trình chỉnh sửa"
 
 #: wp-admin/includes/dashboard.php:2109
 msgid "Design everything on your site &#8212; from the header down to the footer, all using blocks and patterns."
@@ -1683,7 +1683,7 @@ msgstr "Thiết kế tất cả mọi thứ trên trang web của bạn - từ �
 
 #: wp-admin/includes/dashboard.php:2108
 msgid "Customize your entire site with block themes"
-msgstr "Tuỳ chỉnh toàn bộ trang web của bạn với các giao diện hỗ trợ khối nội dung."
+msgstr "Tùy chỉnh toàn bộ trang với chủ đề khối"
 
 #: wp-admin/includes/dashboard.php:2098
 msgid "Add a new page"
@@ -1695,7 +1695,7 @@ msgstr "Mẫu khối là các bố cục block được cấu hình trước. S�
 
 #: wp-admin/includes/dashboard.php:2096
 msgid "Author rich content with blocks and patterns"
-msgstr "Tác giả nội dung phong phú với các khối và mẫu khối"
+msgstr "Tạo nội dung phong phú với khối và mẫu"
 
 #. translators: %s: Current WordPress version.
 #: wp-admin/includes/dashboard.php:2084
@@ -1709,7 +1709,7 @@ msgstr "WordPress là phần mềm miễn phí và là mã nguồn mở"
 #: wp-admin/menu.php:275 wp-admin/menu.php:276 wp-admin/menu.php:305
 #: wp-admin/network/menu.php:107
 msgid "Plugin File Editor"
-msgstr "Sửa tệp tin plugin"
+msgstr "Sửa tệp tin Plugin"
 
 #: wp-admin/menu.php:255 wp-admin/menu.php:256 wp-admin/network/menu.php:82
 msgid "Theme File Editor"
@@ -1780,7 +1780,7 @@ msgstr "Đây là nơi đầu tiên bạn đến mỗi khi đăng nhập vào bl
 
 #: wp-admin/index.php:36
 msgid "Welcome to your WordPress Dashboard!"
-msgstr "Chào mừng bạn đến với Trang quản trị WordPress của bạn!"
+msgstr "Chào mừng bạn đến với trang quản trị WordPress của bạn!"
 
 #: wp-admin/includes/user.php:680
 msgid "The application ID must be a UUID."
@@ -1899,7 +1899,7 @@ msgstr "Đổi các mục menu bổ sung"
 #. translators: %s: The currently displayed tab.
 #: wp-admin/site-health.php:43
 msgid "Site Health - %s"
-msgstr "Tình trạng trang web - %s"
+msgstr "Tình trạng website - %s"
 
 #. translators: 1: wp-config.php, 2: Documentation URL.
 #: wp-admin/setup-config.php:485
@@ -2404,7 +2404,7 @@ msgstr "Không thể xác định %s. Vui lòng thử một thành phố kề b�
 
 #: wp-admin/authorize-application.php:323
 msgid "You will be returned to the WordPress Dashboard, and no changes will be made."
-msgstr "Bạn sẽ được đưa trở lại Trang tổng quan WordPress và không có thay đổi nào được thực hiện."
+msgstr "Bạn sẽ được đưa trở lại trang quản trị WordPress và không có thay đổi nào được thực hiện."
 
 #: wp-admin/authorize-application.php:305
 msgid "No, I do not approve of this connection"
@@ -2710,7 +2710,7 @@ msgstr "Bản cập nhật này không hoạt động với phiên bản WordPre
 #. translators: Hidden accessibility text.
 #: wp-admin/options-discussion.php:234 wp-admin/options-discussion.php:238
 msgid "Disallowed Comment Keys"
-msgstr "Các kí tự bình luận không cho phép"
+msgstr "Bình luận bị cấm"
 
 #: wp-admin/includes/class-wp-site-health.php:2763
 msgid "Plugin and theme auto-updates"
@@ -3627,7 +3627,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/tools-export-scree
 
 #: wp-admin/plugin-install.php:121
 msgid "<a href=\"https://wordpress.org/documentation/article/plugins-add-new-screen/\">Documentation on Installing Plugins</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/plugins-add-new-screen/\">Tài liệu về cách Cài plugin</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/plugins-add-new-screen/\">Tài liệu về cách cài Plugin</a>"
 
 #: wp-admin/edit.php:326
 msgid "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Documentation on Managing Pages</a>"
@@ -3707,7 +3707,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/manage-plugins/\">
 
 #: wp-admin/index.php:132
 msgid "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Documentation on Dashboard</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Tài liệu về bảng tổng quan</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Tài liệu về trang quản trị</a>"
 
 #: wp-admin/user-new.php:301
 msgid "<a href=\"https://wordpress.org/documentation/article/users-add-new-screen/\">Documentation on Adding New Users</a>"
@@ -3981,7 +3981,7 @@ msgstr "Cho phép mọi người gửi bình luận về bài viết mới"
 #. translators: Hidden accessibility text.
 #: wp-admin/options-discussion.php:47 wp-admin/options-discussion.php:51
 msgid "Default post settings"
-msgstr "Cài đặt bài viết mặc định"
+msgstr "Cài mặc định cho bài viết"
 
 #. translators: %s: Gravatar URL.
 #: wp-admin/user-edit.php:625
@@ -4028,7 +4028,7 @@ msgstr "Nếu bạn cần chỉnh sửa nhiều CSS hơn cho giao diện, bạn 
 
 #: wp-admin/theme-editor.php:402
 msgid "You appear to be making direct edits to your theme in the WordPress dashboard. It is not recommended! Editing your theme directly could break your site and your changes may be lost in future updates."
-msgstr "Dường như bạn đang thử sửa trực tiếp giao diện trong trang Quản trị. Chúng tôi khuyên bạn không nên làm như vậy! Sửa giao diện trực tiếp có thể làm hỏng trang web của bạn và những thay đổi của bạn có thể bị mất trong các bản cập nhật sau này của giao diện này."
+msgstr "Dường như bạn đang thử sửa trực tiếp giao diện trong trang quản trị. Chúng tôi khuyên bạn không nên làm như vậy! Sửa giao diện trực tiếp có thể làm hỏng trang web của bạn và những thay đổi của bạn có thể bị mất trong các bản cập nhật sau này của giao diện này."
 
 #. translators: Maximum number of words used in a preview of a draft on the
 #. dashboard.
@@ -4403,7 +4403,7 @@ msgstr "Kiểm tra tình trạng trang web hiển thị thông tin về cấu h�
 
 #: wp-admin/includes/dashboard.php:68 wp-admin/site-health.php:251
 msgid "Site Health Status"
-msgstr "Tình trạng trang web"
+msgstr "Tình trạng website"
 
 #: wp-admin/site-health.php:245
 msgid "Everything is running smoothly here."
@@ -4891,7 +4891,7 @@ msgstr "Mã lỗi là %s."
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:171
 msgid "When you've been able to update using the \"Update now\" button on Dashboard > Updates, this error will be cleared for future update attempts."
-msgstr "Khi bạn có thể cập nhật bằng nút \"Cập nhật ngay\" trên Trang tổng quan > Cập nhật, lỗi này sẽ được xóa cho các lần cập nhật trong tương lai."
+msgstr "Khi bạn có thể cập nhật bằng nút \"Cập nhật ngay\" trên trang quản trị > Cập nhật, lỗi này sẽ được xóa cho các lần cập nhật trong tương lai."
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:170
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:185
@@ -5305,7 +5305,7 @@ msgstr "URL trang chủ"
 
 #: wp-admin/site-health.php:101
 msgid "Site Health"
-msgstr "Tình trạng trang web"
+msgstr "Tình trạng website"
 
 #. translators: %s: Number of requests.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:158
@@ -7179,7 +7179,7 @@ msgid ""
 "Commenter avatars come from <a href=\"%s\">Gravatar</a>."
 msgstr ""
 "Xin chào, đây là một bình luận.\n"
-"Để bắt đầu kiểm duyệt, chỉnh sửa và xóa nhận xét, vui lòng truy cập màn hình Nhận xét trong bảng điều khiển.\n"
+"Để bắt đầu kiểm duyệt, chỉnh sửa và xóa nhận xét, vui lòng truy cập màn hình Nhận xét trong trang quản trị.\n"
 "Hình đại diện của người bình luận đến từ <a href=\"%s\">Gravatar</a>."
 
 #. translators: %s: Theme name.
@@ -7680,7 +7680,7 @@ msgstr "Xóa &#8220;%s&#8221;"
 #: wp-admin/includes/class-wp-posts-list-table.php:1497
 #: wp-admin/includes/class-wp-terms-list-table.php:509
 msgid "Quick edit &#8220;%s&#8221; inline"
-msgstr "Chỉnh sửa nhanh &#8220;%s&#8221;"
+msgstr "Sửa nhanh &#8220;%s&#8221;"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:424
 msgid "Search for plugins in the WordPress Plugin Directory."
@@ -8520,7 +8520,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Appearance_Header_Screen\" target=
 
 #: wp-admin/my-sites.php:52
 msgid "<a href=\"https://codex.wordpress.org/Dashboard_My_Sites_Screen\">Documentation on My Sites</a>"
-msgstr "<a href=\"https://codex.wordpress.org/Dashboard_My_Sites_Screen\" target=\"_blank\">Tài liệu về Trang Mạng Của Tôi</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Dashboard_My_Sites_Screen\" target=\"_blank\">Tài liệu trên trang web của tôi</a>"
 
 #: wp-admin/widgets.php:24
 msgid "The theme you are currently using is not widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"https://developer.wordpress.org/themes/functionality/widgets/\">follow these instructions</a>."
@@ -8888,7 +8888,7 @@ msgstr "Bạn có thể thêm các tệp tin của media bằng việc nhấp v�
 
 #: wp-admin/edit-form-advanced.php:293
 msgid "<strong>Post editor</strong> &mdash; Enter the text for your post. There are two modes of editing: Visual and Text. Choose the mode by clicking on the appropriate tab."
-msgstr "<strong>Trình biên tập bài viết</strong> - Nhập nội dung cho bài viết của bạn. Có hai hình thức biên tập: Trình soạn thảo Trực quan và Chỉ chữ. Chọn hình thức bằng cách lựa chọn tab phù hợp."
+msgstr "<strong>Trình chỉnh sửa bài viết</strong> - Nhập nội dung cho bài viết của bạn. Có hai hình thức chỉnh sửa: Trình chỉnh sửa trực quan và Chỉ chữ. Chọn hình thức bằng cách lựa chọn tab phù hợp."
 
 #. translators: %s: URL to header image configuration in Customizer.
 #: wp-admin/includes/class-custom-image-header.php:518
@@ -9269,7 +9269,7 @@ msgstr[0] "%s Bài viết"
 
 #: wp-admin/options-reading.php:47
 msgid "When this setting is in effect, a reminder is shown in the At a Glance box of the Dashboard that says, &#8220;Search engines discouraged&#8221;, to remind you that you have directed search engines to not crawl your site."
-msgstr "Khi cài đặt này hoạt động, một thông báo sẽ hiển thị tại hộp Thông Tin Nhanh trong Bảng Tổng Quát với nội dung, &#8220;Các cỗ máy tìm kiếm bị ngăn chặn,&#8221; để nhắc nhở bạn về việc trang mạng của bạn chưa được các công cụ tìm kiếm đánh chỉ mục."
+msgstr "Khi cài đặt này hoạt động, một thông báo sẽ hiển thị tại hộp thông tin nhanh trong trang quản trị với nội dung, &#8220;Các cỗ máy tìm kiếm bị ngăn chặn,&#8221; để nhắc nhở bạn về việc trang web của bạn chưa được các công cụ tìm kiếm đánh chỉ mục."
 
 #: wp-admin/includes/dashboard.php:73
 msgid "At a Glance"
@@ -9339,7 +9339,7 @@ msgstr[0] "%1$s đánh giá dựa trên %2$s đánh giá"
 
 #: wp-admin/my-sites.php:46
 msgid "This screen shows an individual user all of their sites in this network, and also allows that user to set a primary site. They can use the links under each site to visit either the front end or the dashboard for that site."
-msgstr "Màn hình này hiển thị toàn bộ trang mạng của một người dùng nào đó, và cho phép người dùng đó chỉ định trang mạng chính. Người dùng có thể sử dụng các liên kết phía dưới mỗi trang mạng để xem trang nội dung hoặc bảng điều khiển của trang mạng đó."
+msgstr "Màn hình này hiển thị toàn bộ trang mạng của một người dùng nào đó, và cho phép người dùng đó chỉ định trang mạng chính. Người dùng có thể sử dụng các liên kết phía dưới mỗi trang mạng để xem trang nội dung hoặc trang quản trị của trang web đó."
 
 #. translators: 1: Error code, 2: Error message.
 #: wp-admin/includes/class-wp-automatic-updater.php:1677
@@ -9423,7 +9423,7 @@ msgstr "<strong>Hoạt động</strong> - Hiển thị các bài viết sắp đ
 
 #: wp-admin/index.php:63
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
-msgstr "<strong>Tùy chọn màn hình</strong> - Sử dụng thẻ tùy chọn hiển thị để lựa chọn các hộp thông tin được hiển thị ở bảng tổng quan."
+msgstr "<strong>Tùy chọn màn hình</strong> - Sử dụng thẻ tùy chọn hiển thị để lựa chọn các hộp thông tin được hiển thị ở trang quản trị."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/dashboard.php:1683 wp-admin/includes/dashboard.php:1699
@@ -9664,11 +9664,11 @@ msgstr "Các kích thước bên dưới xác định khung tối đa theo pixel
 
 #: wp-admin/options-discussion.php:204
 msgid "Comment must be manually approved"
-msgstr "Nhận xét phải chờ được kiểm duyệt"
+msgstr "Bình luận cần được phê duyệt thủ công"
 
 #: wp-admin/nav-menus.php:739
 msgid "<strong>Clicking the arrow to the right of any menu item</strong> in the editor will reveal a standard group of settings. Additional settings such as link target, CSS classes, link relationships, and link descriptions can be enabled and disabled via the Screen Options tab."
-msgstr "<strong>Bấm vào biểu tượng mũi tên ở bên phải mỗi chỉ mục thực đơn</strong> trong công cụ biên tập sẽ hiển thị các cài đặt tiêu chuẩn. Các cài đặt nâng cao như mục tiêu liên kết, các lớp CSS, các quan hệ liên kết, và mô tả liên kết có thể được bật / tắt tại khung Tùy chọn Màn hình."
+msgstr "<strong>Bấm vào biểu tượng mũi tên ở bên phải mỗi chỉ mục thực đơn</strong> trong công cụ chỉnh sửa sẽ hiển thị các cài đặt tiêu chuẩn. Các cài đặt nâng cao như mục tiêu liên kết, các lớp CSS, các quan hệ liên kết, và mô tả liên kết có thể được bật / tắt tại khung tùy chọn màn hình."
 
 #. translators: 1: URL to Widgets screen, 2 and 3: The names of the default
 #. themes.
@@ -10180,12 +10180,12 @@ msgstr "Bản nháp được tạo ngày %1$s vào lúc %2$s"
 #. translators: %s: User's display name.
 #: wp-admin/post.php:257
 msgid "You cannot move this item to the Trash. %s is currently editing."
-msgstr "Bạn không thể chuyển mục này vào Thùng Rác. %s đang biên tập."
+msgstr "Bạn không thể chuyển mục này vào thùng Rác. %s đang chỉnh sửa."
 
 #. translators: %s: User's display name.
 #: wp-admin/includes/misc.php:1208
 msgid "%s has taken over and is currently editing."
-msgstr "%s đã truy cập và đang biên tập bài viết."
+msgstr "%s đã truy cập và đang chỉnh sửa bài viết."
 
 #: wp-admin/nav-menus.php:976
 msgid "Select a menu to edit:"
@@ -10236,7 +10236,7 @@ msgstr "Menu tài liệu bên dưới trình soạn thảo liệt kê các hàm 
 #: wp-admin/includes/class-wp-posts-list-table.php:1121
 #: wp-admin/includes/misc.php:1155
 msgid "%s is currently editing"
-msgstr "%s đang biên tập"
+msgstr "%s đang chỉnh sửa"
 
 #: wp-admin/edit-form-advanced.php:361
 msgid "You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button."
@@ -10402,7 +10402,7 @@ msgstr "Nếu bạn đã đánh dấu yêu thích các plugin trên WordPress.or
 
 #: wp-admin/includes/dashboard.php:2079
 msgid "Welcome to WordPress!"
-msgstr "Xin chào! Bạn đã đăng nhập vào khu vực Quản trị của WordPress!"
+msgstr "Chào mừng bạn tới WordPress!"
 
 #: wp-admin/includes/dashboard.php:400
 msgid "Search engines discouraged"
@@ -10885,7 +10885,7 @@ msgstr "Xem Trang Mạng"
 
 #: wp-admin/includes/ms.php:598
 msgid "Visit Dashboard"
-msgstr "Mở bảng tin"
+msgstr "Truy cập trang quản trị"
 
 #: wp-admin/includes/ms.php:592
 msgid "Your Sites"
@@ -10898,7 +10898,7 @@ msgstr "Nếu bạn thấy màn hình này khi muốn truy cập một trong cá
 #. translators: 1: Site title.
 #: wp-admin/includes/ms.php:578 wp-admin/includes/ms.php:587
 msgid "You attempted to access the \"%1$s\" dashboard, but you do not currently have privileges on this site. If you believe you should be able to access the \"%1$s\" dashboard, please contact your network administrator."
-msgstr "Bạn không được phân quyền để truy cập bảng thống kê \"%1$s\" của trang mạng này. Nếu bạn chắc chắn bạn được phép truy cập bảng thống kê \"%1$s\", hãy liên hệ với người quản trị mạng của bạn."
+msgstr "Bạn không được phân quyền để truy cập trang quản trị \"%1$s\" của trang web này. Nếu bạn chắc chắn bạn được phép truy cập trang quản trị \"%1$s\", hãy liên hệ với người quản trị mạng của bạn."
 
 #: wp-admin/includes/ms.php:316
 msgid "MB (Leave blank for network default)"
@@ -11074,7 +11074,7 @@ msgstr "Người dùng mới sẽ nhận được email cho biết họ đã đ�
 
 #: wp-admin/includes/image-edit.php:329
 msgid "There are unsaved changes that will be lost. 'OK' to continue, 'Cancel' to return to the Image Editor."
-msgstr "Có thay đổi chưa được lưu lại có thể bị mất. 'Thực hiện' để tiếp tục, 'Hủy' để quay lại Trình Biên Tập Ảnh."
+msgstr "Có thay đổi chưa được lưu lại có thể bị mất. 'Thực hiện' để tiếp tục, 'Hủy' để quay lại trình chỉnh sửa ảnh."
 
 #: wp-admin/options-writing.php:35
 msgid "Post via email settings allow you to send your WordPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret."
@@ -11082,7 +11082,7 @@ msgstr "Đăng bài qua email cho phép bạn gửi một email với nội dung
 
 #: wp-admin/users.php:47
 msgid "You can filter the list of users by User Role using the text links above the users list to show All, Administrator, Editor, Author, Contributor, or Subscriber. The default view is to show all users. Unused User Roles are not listed."
-msgstr "Bạn có thể lọc danh sách người sử dụng theo Vai Trò Người Dùng bằng cách sử dụng các liên kết ở phía trên bên trái để hiển thị Tất Cả, Quản Trị Viên, Biên Tập Viên, Tác Giả, Cộng Tác Viên, hoặc Bạn Đọc. Mặc định, tất cả người sử dụng sẽ được hiển thị. Các Vai Trò Người Dùng không được sử dụng sẽ không được liệt kê."
+msgstr "Bạn có thể lọc danh sách người sử dụng theo vai trò người dùng bằng cách sử dụng các liên kết ở phía trên bên trái để hiển thị Tất Cả, Quản trị viên, Biên tập viên, Tác giả, Cộng Ttác viên, hoặc Bạn đọc. Mặc định, tất cả người sử dụng sẽ được hiển thị. Các vai trò người dùng không được sử dụng sẽ không được liệt kê."
 
 #: wp-admin/import.php:26
 msgid "In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently."
@@ -11187,7 +11187,7 @@ msgstr "Màn hình này cho phép bạn chọn cấu trúc đường dẫn cố 
 #. translators: 1: WordPress version, 2: URL to About screen.
 #: wp-admin/includes/update-core.php:1624 wp-admin/update-core.php:931
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
-msgstr "Chào mừng tới WordPress %1$s. <a href=\"%2$s\">Đọc tiếp</a>."
+msgstr "Chào mừng bạn tới WordPress %1$s. <a href=\"%2$s\">Tìm hiểu thêm</a>."
 
 #: wp-admin/media-new.php:51
 msgid "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a web link for a particular file that you can share. There are three options for uploading files:"
@@ -11231,7 +11231,7 @@ msgstr "Bạn có thể tùy chỉnh cách hiển thị nội dung của màn h�
 
 #: wp-admin/edit.php:260 wp-admin/users.php:43
 msgid "Screen Content"
-msgstr "Nội Dung Màn Hình"
+msgstr "Nội dung màn hình"
 
 #: wp-admin/edit.php:254
 msgid "This screen provides access to all of your posts. You can customize the display of this screen to suit your workflow."
@@ -11244,7 +11244,7 @@ msgstr "Nếu công cụ nhập vào không có trong danh sách, <a href=\"%s\"
 
 #: wp-admin/edit-comments.php:216
 msgid "Moderating Comments"
-msgstr "Duyệt Bình Luận"
+msgstr "Duyệt bình luận"
 
 #. translators: %s: URL to Import screen.
 #: wp-admin/tools.php:78
@@ -11297,7 +11297,7 @@ msgstr "Đường dẫn cố định là những địa chỉ mạng cố địn
 
 #: wp-admin/options-writing.php:24
 msgid "You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links."
-msgstr "Bạn có thể cập nhật nội dung theo một số cách khác nhau; màn hình này liệt kê các cài đặt cho tất cả các cách đó. Phần phía trên điều chỉnh công cụ biên tập tại bảng thống kê, phần còn lại điều chỉnh các phương pháp xuất bản bên ngoài. Để có thêm thông tin về bất kỳ phương pháp nào, hãy sử dụng các liên kết tài liệu."
+msgstr "Bạn có thể cập nhật nội dung theo một số cách khác nhau; màn hình này liệt kê các cài đặt cho tất cả các cách đó. Phần phía trên điều chỉnh công cụ biên tập tại trang quản trị, phần còn lại điều chỉnh các phương pháp xuất bản bên ngoài. Để có thêm thông tin về bất kỳ phương pháp nào, hãy sử dụng các liên kết tài liệu."
 
 #: wp-admin/options-media.php:26
 msgid "Uploading Files allows you to choose the folder and path for storing your uploaded files."
@@ -11389,7 +11389,7 @@ msgstr "Bạn có thể quản lý các nhận xét được đưa ra trên tran
 
 #: wp-admin/index.php:52
 msgid "Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information."
-msgstr "Các liên kết trên Thanh Công Cụ ở phía trên cùng màn hình kết nối tới bảng thống kê và mặt trước trang mạng của bạn, đồng thời cũng cho phép truy cập tới hồ sơ của bạn và những thông tin hữu ích về WordPress."
+msgstr "Các liên kết trên thanh công cụ ở phía trên cùng màn hình kết nối tới trang quản trị và mặt trước trang web của bạn, đồng thời cũng cho phép truy cập tới hồ sơ của bạn và những thông tin hữu ích về WordPress."
 
 #: wp-admin/link-manager.php:71
 msgid "Deleting Links"
@@ -11422,7 +11422,7 @@ msgstr "Bạn có thể ẩn/hiện mỗi cột theo nhu cầu của bạn và c
 
 #: wp-admin/edit.php:317
 msgid "Managing Pages"
-msgstr "Quản Lý Trang Tĩnh"
+msgstr "Quản lý trang"
 
 #: wp-admin/edit.php:281
 msgid "<strong>Preview</strong> will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
@@ -11430,15 +11430,15 @@ msgstr "<strong>Xem trước</strong> cho bạn thấy bản nháp của bạn s
 
 #: wp-admin/edit.php:280
 msgid "<strong>Trash</strong> removes your post from this list and places it in the Trash, from which you can permanently delete it."
-msgstr "<strong>Thùng rác</strong> loại bỏ bài viết của bạn khỏi danh sách và đưa vào thùng rác, nơi mà bạn có thể xóa vĩnh viễn bài viết."
+msgstr "<strong>Xóa</strong> sẽ xóa bài viết của bạn khỏi danh sách này và chuyển vào thùng rác, từ đó bạn có thể xóa vĩnh viễn."
 
 #: wp-admin/edit.php:279
 msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
-msgstr "<strong>Chỉnh Sửa Nhanh</strong> cung cấp truy cập nhanh tới siêu dữ liệu bài viết của bạn, cho phép bạn cập nhật các thông tin liên quan của bài viết mà không cần rời khỏi màn hình này."
+msgstr "<strong>Sửa nhanh</strong> cung cấp truy cập nhanh tới metadata bài viết của bạn, cho phép bạn cập nhật các thông tin liên quan của bài viết mà không cần rời khỏi màn hình này."
 
 #: wp-admin/edit.php:278
 msgid "<strong>Edit</strong> takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
-msgstr "<strong>Biên Tập</strong> đưa bạn tới màn hình soạn thảo cho bài viết. Bạn cũng có thể mở màn hình đó bằng cách bấm vào tiêu đề của bài viết."
+msgstr "<strong>Chỉnh sửa</strong> đưa bạn tới màn hình soạn thảo cho bài viết. Bạn cũng có thể mở màn hình đó bằng cách bấm vào tiêu đề của bài viết."
 
 #: wp-admin/user-new.php:266
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
@@ -11451,11 +11451,11 @@ msgstr "Chào mừng đến với WordPress %s"
 
 #: wp-admin/about.php:305
 msgid "Go to Dashboard &rarr; Home"
-msgstr "Đến Bảng tin &rarr; Trang chủ"
+msgstr "Đến Trang quản trị &rarr; Trang chủ"
 
 #: wp-admin/about.php:298
 msgid "Go to Dashboard &rarr; Updates"
-msgstr "Tới Bảng tin &rarr; Cập nhật"
+msgstr "Tới Trang quản trị &rarr; Cập nhật"
 
 #: wp-admin/user-edit.php:217
 msgid "Profile updated."
@@ -11577,7 +11577,7 @@ msgstr "<strong>Kéo và Thả</strong> - Để thay đổi vị trí các hộp
 
 #: wp-admin/index.php:62
 msgid "You can use the following controls to arrange your Dashboard screen to suit your workflow. This is true on most other administration screens as well."
-msgstr "Bạn có thể sử dụng những tùy chỉnh sau để sắp xếp màn hình Bảng Thống Kê cho phù hợp với nhu cầu của bạn. Những tùy chỉnh này cũng áp dụng cho hầu hết các màn hình quản trị khác."
+msgstr "Bạn có thể sử dụng những tùy chỉnh sau để sắp xếp màn hình Trang quản trị cho phù hợp với nhu cầu của bạn. Những tùy chỉnh này cũng áp dụng cho hầu hết các màn hình quản trị khác."
 
 #: wp-admin/index.php:51
 msgid "The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom."
@@ -11652,7 +11652,7 @@ msgstr "Thêm Người Dùng Đã Tồn Tại"
 #: wp-admin/users.php:808 wp-admin/network/site-users.php:292
 #: wp-admin/network/users.php:312
 msgid "Search Users"
-msgstr "Tìm Kiếm Người Dùng"
+msgstr "Tìm kiếm người dùng"
 
 #: wp-admin/users.php:720 wp-admin/network/site-users.php:263
 msgid "User removed from this site."
@@ -11764,7 +11764,7 @@ msgstr "Thông tin trang"
 
 #: wp-admin/edit-form-advanced.php:307
 msgid "Title and Post Editor"
-msgstr "Công Cụ Biên Tập Tiêu Đề và Bài Viết"
+msgstr "Trình chỉnh sửa tiêu đề và bài viết"
 
 #: wp-admin/edit-form-advanced.php:287
 msgid "Customizing This Display"
@@ -11992,7 +11992,7 @@ msgstr "Bạn đã chỉ định xóa người dùng sau:"
 #. translators: %s: Template name.
 #: wp-admin/includes/file.php:93
 msgid "%s Page Template"
-msgstr "%s Trang Mẫu"
+msgstr "%s Trang mẫu"
 
 #: wp-admin/includes/ajax-actions.php:4745 wp-admin/plugins.php:654
 msgid "You cannot delete a plugin while it is active on the main site."
@@ -12012,7 +12012,7 @@ msgstr "Bất kỳ chỉnh sửa các tập tin từ màn hình này sẽ đư�
 
 #: wp-admin/users.php:35
 msgid "This screen lists all the existing users for your site. Each user has one of five defined roles as set by the site admin: Site Administrator, Editor, Author, Contributor, or Subscriber. Users with roles other than Administrator will see fewer options in the dashboard navigation when they are logged in, based on their role."
-msgstr "Màn hình này liệt kê tất cả người đang sử dụng trang mạng của bạn. Mỗi người sử dụng được chỉ định một trong năm vai trò bởi người quản trị trang mạng: Quản Trị Viên, Biên Tập Viên, Tác Giả, Cộng Tác Viên, hoặc Bạn Đọc. Người sử dụng không phải Quản Trị Viên sẽ thấy ít tùy chọn trong bảng thống kê hơn sau khi đăng nhập, tùy thuộc vào vai trò của họ."
+msgstr "Màn hình này liệt kê tất cả người đang sử dụng trang web của bạn. Mỗi người sử dụng được chỉ định một trong năm vai trò bởi người quản trị trang web: Quản trị viên, Biên tập viên, Tác giả, Cộng tác viên, hoặc Bạn đọc. Người sử dụng không phải quản trị viên sẽ thấy ít tùy chọn trong trang quản trị hơn sau khi đăng nhập, tùy thuộc vào vai trò của họ."
 
 #: wp-admin/plugin-editor.php:144
 msgid "If you want to make changes but do not want them to be overwritten when the plugin is updated, you may be ready to think about writing your own plugin. For information on how to edit plugins, write your own from scratch, or just better understand their anatomy, check out the links below."
@@ -12020,7 +12020,7 @@ msgstr "Nếu bạn muốn thực hiện thay đổi nhưng không muốn chúng
 
 #: wp-admin/index.php:75
 msgid "The boxes on your Dashboard screen are:"
-msgstr "Các hộp trong màn hình Bảng tiền khởi của bạn là:"
+msgstr "Các hộp trong màn hình trang quản trị của bạn là:"
 
 #. translators: Default page slug.
 #: wp-admin/includes/upgrade.php:344
@@ -12029,7 +12029,7 @@ msgstr "Trang mẫu"
 
 #: wp-admin/includes/upgrade.php:342
 msgid "Sample Page"
-msgstr "Trang Mẫu"
+msgstr "Trang mẫu"
 
 #: wp-admin/options-discussion.php:323
 msgid "Retro (Generated)"
@@ -12211,7 +12211,7 @@ msgstr "Chỉ dành cho hình ảnh, bạn có thể bấm vào Biên Tập Ản
 
 #: wp-admin/edit-form-advanced.php:346
 msgid "This screen allows you to edit fields for metadata in a file within the media library."
-msgstr "Màn hình này cho phép bạn biên tập năm trường dữ liệu cho mỗi file trong media media."
+msgstr "Màn hình này cho phép bạn chỉnh sửa năm trường dữ liệu cho mỗi tệp trong thư viện media."
 
 #: wp-admin/user-new.php:441
 msgid "Email or Username"
@@ -12261,7 +12261,7 @@ msgstr "Thực hiện lọc"
 
 #: wp-admin/includes/theme.php:338
 msgid "Editor Style"
-msgstr "Kiểu Công Cụ Biên Tập"
+msgstr "Kiểu trình chỉnh sửa"
 
 #: wp-admin/users.php:235
 msgid "Sorry, you are not allowed to edit users."
@@ -12356,7 +12356,7 @@ msgstr "Ấn Lưu menu để các mục chưa lưu sẽ được công bố."
 
 #: wp-admin/includes/dashboard.php:1668
 msgid "Storage Space"
-msgstr "Dung Lượng Lưu Trữ"
+msgstr "Dung lượng lưu trữ"
 
 #: wp-admin/includes/dashboard.php:451
 msgid "Create a New Site"
@@ -12499,7 +12499,7 @@ msgstr "Bạn có thể tuỳ biến giao diện website mà không cần sửa 
 
 #: wp-admin/user-new.php:293
 msgid "Editors can publish posts, manage posts as well as manage other people&#8217;s posts, etc."
-msgstr "Biên tập viên có thể xuất bản bài viết, quản lý bài viết của chính họ cũng như của người khác, v.v."
+msgstr "Trình chỉnh sửa có thể xuất bản bài viết, quản lý bài viết của chính họ cũng như của người khác, v.v."
 
 #: wp-admin/user-edit.php:66
 msgid "Remember to click the Update Profile button when you are finished."
@@ -12519,7 +12519,7 @@ msgstr "Bạn cũng có thể kiểm duyệt bình luận từ màn hình này v
 
 #: wp-admin/comment.php:65
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
-msgstr "Bạn có thể biên tập nội dung của một bình luận nếu cần thiết. Việc này thường hữu ích khi bạn phát hiện lỗi chính tả trong bình luận."
+msgstr "Bạn có thể chỉnh sửa nội dung của một bình luận nếu cần thiết. Việc này thường hữu ích khi bạn phát hiện lỗi chính tả trong bình luận."
 
 #. translators: %s: Documentation URL.
 #: wp-admin/options-reading.php:34
@@ -12579,7 +12579,7 @@ msgstr "Kích Hoạt Gói Mở Rộng &amp; Thực Thi Công Cụ Nhập Khẩu"
 
 #: wp-admin/edit-link-form.php:68
 msgid "You can add or edit links on this screen by entering information in each of the boxes. Only the link&#8217;s web address and name (the text you want to display on your site as the link) are required fields."
-msgstr "Bạn có thể thêm hoặc biên tập liên kết tại màn hình này bằng cách nhập thông tin vào từng hộp. Chỉ có địa chỉ mạng và tên của liên kết (hiển thị trên trang mạng của bạn) là những trường bắt buộc."
+msgstr "Bạn có thể thêm hoặc chỉnh sửa liên kết tại màn hình này bằng cách nhập thông tin vào từng hộp. Chỉ có địa chỉ mạng và tên của liên kết (hiển thị trên trang mạng của bạn) là những trường bắt buộc."
 
 #. translators: %s: URL to Categories to Tags Converter tool.
 #: wp-admin/edit-tags.php:639
@@ -12608,7 +12608,7 @@ msgstr "Hầu hết trường hợp, gói mở rộng hoạt động tốt với
 
 #: wp-admin/widgets-form.php:56
 msgid "Enabling Accessibility Mode, via Screen Options, allows you to use Add and Edit buttons instead of using drag and drop."
-msgstr "Bật Chế Độ Truy Cập Thân Thiện, tại Tùy Chọn Màn Hình, cho phép bạn sử dụng các nút Thêm Mới và Biên Tập thay vì sử dụng kéo và thả."
+msgstr "Bật chế độ truy cập thân thiện, tại tùy chọn màn hình, cho phép bạn sử dụng các nút thêm mới và Chỉnh sửa thay vì sử dụng kéo và thả."
 
 #: wp-admin/widgets-form.php:55
 msgid "Widgets may be used multiple times. You can give each widget a title, to display on your site, but it&#8217;s not required."
@@ -13189,7 +13189,7 @@ msgstr "Sửa mục trong menu"
 
 #: wp-admin/about.php:305
 msgid "Go to Dashboard"
-msgstr "Xem bảng tin"
+msgstr "Chuyển đến trang quản trị"
 
 #. translators: %s: Number of plugins.
 #: wp-admin/includes/class-wp-plugins-list-table.php:549
@@ -13540,7 +13540,7 @@ msgstr "Đang cài đặt giao diện: %s"
 #. translators: %s: File name.
 #: wp-admin/update.php:171
 msgid "Installing plugin from uploaded file: %s"
-msgstr "Đang cài plugin từ file được tải lên: %s"
+msgstr "Đang cài Plugin từ tệp được tải lên: %s"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:122
 #: wp-admin/plugin-install.php:154 wp-admin/update.php:164
@@ -13820,7 +13820,7 @@ msgstr "Đầy đủ"
 
 #: wp-admin/options-reading.php:179
 msgid "Syndication feeds show the most recent"
-msgstr "Số bài viết trong RSS Feed"
+msgstr "Nguồn cấp dữ liệu RSS"
 
 #: wp-admin/options-reading.php:175
 msgid "posts"
@@ -13828,7 +13828,7 @@ msgstr "bài"
 
 #: wp-admin/options-reading.php:173
 msgid "Blog pages show at most"
-msgstr "Hiển thị nhiều nhất"
+msgstr "Số lượng bài viết hiển thị trên trang blog"
 
 #: wp-admin/options-reading.php:150
 msgid "<strong>Warning:</strong> these pages should not be the same!"
@@ -14060,30 +14060,30 @@ msgstr "Ảnh đại diện"
 
 #: wp-admin/options-discussion.php:241
 msgid "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be put in the Trash. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "Nếu nội dung chứa tên, liên kết, email hay IP, bình luận sẽ bị đưa vào thùng rác. Mỗi dòng một từ hoặc IP. Chuỗi kí tự nằm trong từ cũng được tính, ví dụ &#8220;press&#8221; cũng sẽ tính cả từ &#8220;WordPress&#8221;."
+msgstr "Khi một bình luận chứa bất kỳ từ nào sau đây trong nội dung, tên, URL, e-mail, hoặc IP, nó sẽ được loại vào rác. Mỗi dòng một từ hoặc IP. Nó sẽ trùng với từ bên trong, ví dụ như &#8220;press&#8221; sẽ trùng với &#8220;WordPress&#8221;."
 
 #: wp-admin/options-discussion.php:227
 msgid "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "Nếu nội dung chứa tên, liên kết, thư điện tử hay IP, bình luận sẽ bị đưa vào <a href=\"edit-comments.php?comment_status=moderated\">danh sách chờ xét duyệt</a>. Mỗi dòng một từ hoặc IP. Chuỗi kí tự nằm trong từ cũng được tính, ví dụ &#8220;press&#8221; cũng được tính là xuất hiện trong &#8220;WordPress&#8221;."
+msgstr "Khi một bình luận chứa bất kỳ trong số các từ này trong nội dung, tên, URL, e-mail, hay IP của nó, nó sẽ bị giữ lại trong <a href=\"edit-comments.php?comment_status=moderated\">danh sách chờ xét duyệt.</a>. Mỗi dòng là một từ hoặc IP. Nó sẽ trùng với từ bên trong, ví dụ &#8220;press&#8221; sẽ trùng với &#8220;WordPress&#8221;."
 
 #. translators: %s: Number of links.
 #: wp-admin/options-discussion.php:221
 msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"
-msgstr "Giữ lại một bình luận nếu nó chứa %s liên kết hoặc nhiều hơn. (Đặc điểm chung của các bình luận bình luận rác là chèn nhiều liên kết)."
+msgstr "Giữ bình luận trong danh sách chờ duyệt nếu nó chứa %s liên kết hoặc nhiều hơn. (Một điểm nhận dạng chung cho các bình luận bình luận rác là chèn nhiều liên kết)."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/options-discussion.php:210 wp-admin/options-discussion.php:214
 msgid "Comment Moderation"
-msgstr "Xét duyệt bình luận"
+msgstr "Kiểm duyệt bình luận"
 
 #: wp-admin/options-discussion.php:206
 msgid "Comment author must have a previously approved comment"
-msgstr "Tác giả bình luận phải có một bình luận đã được phê duyệt trước đó"
+msgstr "Người bình luận phải có bình luận được duyệt trước đó"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/options-discussion.php:195 wp-admin/options-discussion.php:199
 msgid "Before a comment appears"
-msgstr "Trước khi một bình luận xuất hiện"
+msgstr "Trước khi bình luận được đăng"
 
 #: wp-admin/options-discussion.php:191
 msgid "A comment is held for moderation"
@@ -14731,7 +14731,7 @@ msgstr "Tập tin nén của plugin"
 
 #: wp-admin/includes/plugin-install.php:350
 msgid "If you have a plugin in a .zip format, you may install or update it by uploading it here."
-msgstr "Nếu bạn có file .zip của plugin, bạn có thể cài plugin bằng cách tải file lên tại đây."
+msgstr "Nếu bạn có một plugin dưới dạng tệp .zip, bạn có thể cài đặt hoặc cập nhật nó bằng cách tải tệp lên tại đây."
 
 #: wp-admin/includes/plugin-install.php:324
 #: wp-admin/includes/plugin-install.php:337

@@ -67,6 +67,13 @@ $wp_admin_bar->add_menu( array(
 		'href'   => $panel_url . '-status',
 	) );
 
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'flatsome_panel',
+		'id'     => 'flatsome_panel_features',
+		'title'  => 'Features',
+		'href'   => $panel_url . '-features',
+	) );
+
 $wp_admin_bar->add_menu( array(
  'parent' => 'flatsome_panel',
  'id' => 'flatsome_panel_changelog',
@@ -216,7 +223,7 @@ $wp_admin_bar->add_menu( array(
 $wp_admin_bar->add_menu( array(
  'parent' => 'options_style',
  'id' => 'options_style_lightbox',
- 'title' => 'Image Lightbox',
+ 'title' => 'Drawer & Lightbox',
  'href' =>  $optionUrl_section.'lightbox'
 ));
 

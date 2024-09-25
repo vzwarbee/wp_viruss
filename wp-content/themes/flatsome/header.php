@@ -28,12 +28,6 @@
 
 	<?php do_action( 'flatsome_before_header' ); ?>
 
-	<header id="header" class="header <?php flatsome_header_classes(); ?>">
-		<div class="header-wrapper">
-			<?php get_template_part( 'template-parts/header/header', 'wrapper' ); ?>
-		</div>
-	</header>
-
 	<?php do_action( 'flatsome_after_header' ); ?>
 
 	<main id="main" class="<?php flatsome_main_classes(); ?>">

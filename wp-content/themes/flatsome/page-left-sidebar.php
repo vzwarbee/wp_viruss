@@ -12,12 +12,17 @@ get_header(); ?>
 
 <div  class="page-wrapper page-left-sidebar">
 	<div class="row">
-		<div id="content" class="large-9 right col" role="main">
+		<div id="content" class="large-12 right col content-right" role="main">
 			<div class="page-inner">
+				<header id="header" class="header <?php flatsome_header_classes(); ?>">
+					<div class="header-wrapper stucks">
+						<?php get_template_part( 'template-parts/header/header', 'wrapper' ); ?>
+					</div>
+				</header>
 				<?php if(get_theme_mod('default_title', 0)){ ?>
-					<header class="entry-header">
+					<div class="entry-header">
 						<h1 class="entry-title mb uppercase"><?php the_title(); ?></h1>
-					</header>
+					</div>
 				<?php } ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -33,7 +38,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div class="large-3 col col-first col-divided">
+		<div class="large-3 col col-first navbar-left">
 		<?php get_sidebar(); ?>
 		</div>
 	</div>

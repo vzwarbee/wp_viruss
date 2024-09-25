@@ -32,13 +32,6 @@ class Flatsome_Upgrade {
 	private $running_version;
 
 	/**
-	 * Holds is upgrade completed
-	 *
-	 * @var bool
-	 */
-	private $is_upgrade_completed = false;
-
-	/**
 	 * Holds update callback that need to be run per version
 	 *
 	 * @var array
@@ -67,6 +60,12 @@ class Flatsome_Upgrade {
 		),
 		'3.18.0' => array(
 			'update_3180',
+		),
+		'3.18.5' => array(
+			'update_3185',
+		),
+		'3.19.0' => array(
+			'update_3190',
 		),
 	);
 
@@ -269,6 +268,64 @@ class Flatsome_Upgrade {
 			set_theme_mod( 'shop_pagination', 'infinite-scroll' );
 		}
 		remove_theme_mod( 'flatsome_infinite_scroll' );
+	}
+
+	/**
+	 * Performs upgrades to Flatsome 3.18.5
+	 */
+	private function update_3185() {
+		// Clear typography cache.
+		try {
+			$fonts_dir = flatsome_get_fonts_dir();
+
+			delete_transient( 'kirki_remote_url_contents' );
+			delete_option( 'kirki_downloaded_font_files' );
+
+			global $wp_filesystem;
+			if ( ! $wp_filesystem ) {
+				if ( ! function_exists( 'WP_Filesystem' ) ) {
+					require_once wp_normalize_path( ABSPATH . '/wp-admin/includes/file.php' );
+				}
+				WP_Filesystem();
+			}
+
+			if ( $wp_filesystem instanceof WP_FileSystem_Base && $wp_filesystem->exists( $fonts_dir ) ) {
+				foreach ( $wp_filesystem->dirlist( $fonts_dir ) as $file ) {
+					if ( $wp_filesystem->is_dir( $fonts_dir . '/' . $file['name'] ) ) {
+						$wp_filesystem->rmdir( $fonts_dir . '/' . $file['name'], true );
+					}
+				}
+			}
+		} catch ( Exception $e ) {
+			error_log( $e->getMessage() ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions
+		}
+	}
+
+	/**
+	 * Performs upgrades to Flatsome 3.19.0
+	 */
+	private function update_3190() {
+		// Convert custom cart icon URL to attachment ID.
+		$name  = 'custom_cart_icon';
+		$value = get_theme_mod( $name );
+
+		if ( ! empty( $value ) && ! is_numeric( $value ) ) {
+			if ( $post_id = attachment_url_to_postid( $value ) ) {
+				set_theme_mod( $name, $post_id );
+			}
+		}
+
+		// Remove lazy load background setting.
+		remove_theme_mod( 'lazy_load_backgrounds' );
+
+		// If swatch color selected setting matches color secondary it likely has the
+		// previous default value, reset it so it will use custom secondary color if set.
+		if ( get_theme_mod( 'swatches_color_selected' ) === Flatsome_Default::COLOR_SECONDARY ) {
+			set_theme_mod( 'swatches_color_selected', '' );
+		}
+		if ( get_theme_mod( 'swatches_box_color_selected' ) === Flatsome_Default::COLOR_SECONDARY ) {
+			set_theme_mod( 'swatches_box_color_selected', '' );
+		}
 	}
 
 	/**

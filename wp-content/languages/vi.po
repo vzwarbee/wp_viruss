@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-15 08:00:53+0000\n"
+"PO-Revision-Date: 2024-09-23 02:50:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1283,7 +1283,7 @@ msgstr "Xem tệp media"
 #: wp-includes/post.php:78 wp-admin/menu.php:68 wp-admin/upload.php:215
 #: wp-admin/upload.php:422
 msgid "Add New Media File"
-msgstr "Thêm tệp media mới"
+msgstr "Thêm tệp mới"
 
 #: wp-includes/meta.php:1473
 msgid "Meta keys cannot enable revisions support unless the object subtype supports revisions."
@@ -1499,7 +1499,7 @@ msgstr "Cha"
 
 #: wp-includes/js/dist/edit-site.js:38036 wp-admin/includes/dashboard.php:2129
 msgid "Edit styles"
-msgstr "Chỉnh sửa kiểu"
+msgstr "Sửa kiểu hiển thị"
 
 #: wp-includes/blocks/footnotes.php:123
 #: wp-includes/js/dist/block-library.js:63152
@@ -2539,7 +2539,7 @@ msgstr "Liên kết trả lời bình luận"
 #: wp-includes/blocks/comment-edit-link/block.json
 msgctxt "block description"
 msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
-msgstr "Hiển thị liên kết để chỉnh sửa bình luận trong Trang tổng quan WordPress. Liên kết này chỉ hiển thị cho người dùng có khả năng chỉnh sửa bình luận."
+msgstr "Hiển thị liên kết để chỉnh sửa bình luận trong trang quản trị WordPress. Liên kết này chỉ hiển thị cho người dùng có khả năng chỉnh sửa bình luận."
 
 #: wp-includes/blocks/comment-edit-link/block.json
 msgctxt "block title"
@@ -7004,7 +7004,7 @@ msgstr "Hết hạn"
 
 #: wp-includes/user.php:4001
 msgid "User&#8217;s location data used for the Community Events in the WordPress Events and News dashboard widget."
-msgstr "User&#8217;s dữ liệu vị trí được sử dụng cho Sự kiện cộng đồng trong tiện ích bảng điều khiển Tin tức và sự kiện WordPress."
+msgstr "User&#8217;s dữ liệu vị trí được sử dụng cho sự kiện cộng đồng trong tiện ích trang quản trị tin tức và sự kiện WordPress."
 
 #: wp-includes/user.php:4000
 msgid "Community Events Location"
@@ -7570,7 +7570,7 @@ msgstr ""
 "\n"
 "###SUPPORT###\n"
 "\n"
-"Nếu trang web của bạn xuất hiện bị hỏng và bạn không thể truy cập bảng điều khiển bình thường, WordPress hiện có một chế độ “phục hồi” đặc biệt. Điều này cho phép bạn an toàn đăng nhập vào bảng điều khiển và điều tra thêm.\n"
+"Nếu trang web của bạn xuất hiện bị hỏng và bạn không thể truy cập trang quản trị bình thường, WordPress hiện có một chế độ “phục hồi” đặc biệt. Điều này cho phép bạn an toàn đăng nhập vào trang quản trị và điều tra thêm.\n"
 "\n"
 "###LINK###\n"
 "\n"
@@ -12155,7 +12155,7 @@ msgstr "Extension XML trong PHP không khả dụng. Vui lòng liên hệ với 
 #. translators: %s: Current user's display name.
 #: wp-includes/admin-bar.php:280 wp-includes/admin-bar.php:292
 msgid "Howdy, %s"
-msgstr "Chào, %s"
+msgstr "Xin chào, %s"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-nav-menu-location-control.php:86
@@ -12410,7 +12410,7 @@ msgstr "Yêu cầu phải có %s để bỏ dữ liệu meta của ảnh."
 
 #: wp-includes/media.php:4837
 msgid "No media items found."
-msgstr "Không tìm thấy file media nào."
+msgstr "Không tìm thấy tệp media nào."
 
 #. translators: 1: Post title, 2: Site title.
 #: wp-includes/embed.php:505
@@ -13883,7 +13883,7 @@ msgstr "Thêm mục"
 #. translators: User dashboard screen title. %s: Network title.
 #: wp-includes/admin-bar.php:388 wp-admin/admin-header.php:43
 msgid "User Dashboard: %s"
-msgstr "Bảng điều khiển người dùng: %s"
+msgstr "Trang quản trị người dùng: %s"
 
 #. translators: 1: The 'id' argument, 2: Sidebar name, 3: Recommended 'id'
 #. value.
@@ -14377,7 +14377,7 @@ msgstr "Thay đổi tệp tin"
 #: wp-includes/post.php:76
 msgctxt "post type general name"
 msgid "Media"
-msgstr "Đa phương tiện"
+msgstr "Media"
 
 #: wp-includes/post.php:51
 msgctxt "add new from admin bar"
@@ -19468,7 +19468,7 @@ msgstr "Trả lời %s"
 #: wp-includes/comment-template.php:2100 wp-includes/comment-template.php:2633
 #: wp-includes/js/dist/block-library.js:8701
 msgid "Leave a Reply"
-msgstr "Trả lời"
+msgstr "Để lại một bình luận"
 
 #: wp-includes/comment-template.php:1980
 msgid "Click here to cancel reply."
@@ -19484,7 +19484,7 @@ msgstr "Gửi bình luận"
 
 #: wp-includes/comment-template.php:1756
 msgid "Log in to Reply"
-msgstr "Đăng nhập để trả lời"
+msgstr "Đăng nhập để bình luận"
 
 #. translators: %s: Category name.
 #: wp-includes/class-walker-category.php:171
@@ -19862,7 +19862,7 @@ msgstr "Độ bảo mật"
 #: wp-admin/network/site-info.php:146 wp-admin/network/site-settings.php:95
 #: wp-admin/network/site-themes.php:181 wp-admin/network/site-users.php:226
 msgid "Dashboard"
-msgstr "Bảng tin"
+msgstr "Trang quản trị"
 
 #: wp-includes/class-wp-widget.php:144 wp-admin/includes/widgets.php:278
 #: wp-admin/widgets-form.php:293
@@ -20110,7 +20110,7 @@ msgstr "Tìm kiếm"
 #: wp-admin/includes/dashboard.php:1771 wp-admin/includes/file.php:348
 #: wp-admin/index.php:187
 msgid "Dismiss"
-msgstr "Hủy"
+msgstr "Tắt thông báo"
 
 #: wp-includes/class-wp-taxonomy.php:617
 msgid "All Categories"
@@ -20392,7 +20392,7 @@ msgstr "Thông báo liên kết"
 #: wp-admin/includes/dashboard.php:766 wp-admin/js/edit-comments.js:373
 #: wp-admin/js/edit-comments.js:1015
 msgid "Reply"
-msgstr "Trả lời"
+msgstr "Bình luận"
 
 #: wp-includes/class-wp-customize-manager.php:4862
 #: wp-includes/script-loader.php:1278 wp-admin/includes/dashboard.php:607

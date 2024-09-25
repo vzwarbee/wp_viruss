@@ -40,9 +40,20 @@ final class Shipping {
 	/**
 	 * Main instance.
 	 *
+	 * @deprecated in favor of get_instance()
 	 * @return Shipping
 	 */
 	public static function instance() {
+		_deprecated_function( __METHOD__, '3.19.0', 'get_instance()' );
+		return self::get_instance();
+	}
+
+	/**
+	 * Main instance.
+	 *
+	 * @return Shipping
+	 */
+	public static function get_instance() {
 		if ( is_null( self::$instance ) ) {
 			self::$instance = new self();
 		}
@@ -83,6 +94,7 @@ final class Shipping {
 		$subtotal                = WC()->cart->get_displayed_subtotal();
 		$classes                 = array( 'ux-free-shipping' );
 		$free_shipping_by_coupon = false;
+		$ignore_discounts        = false;
 
 		// Check shipping packages.
 		$packages = WC()->cart->get_shipping_packages();
@@ -92,6 +104,10 @@ final class Shipping {
 		foreach ( $zone->get_shipping_methods( true ) as $method ) {
 			if ( 'free_shipping' === $method->id ) {
 				$free_shipping_threshold = $method->get_option( 'min_amount' );
+
+				if ( in_array( $method->get_option( 'requires' ), array( 'min_amount', 'either', 'both' ), true ) ) {
+					$ignore_discounts = $method->get_option( 'ignore_discounts' ) === 'yes'; // Apply minimum order rule before coupon discount option.
+				}
 			}
 		}
 
@@ -107,12 +123,21 @@ final class Shipping {
 		}
 
 		// Check coupons.
-		if ( $subtotal && WC()->cart->get_coupons() ) {
-			foreach ( WC()->cart->get_coupons() as $coupon ) {
-				$subtotal -= WC()->cart->get_coupon_discount_amount( $coupon->get_code(), WC()->cart->display_cart_ex_tax );
+		if ( $subtotal && wc_coupons_enabled() ) {
+			$coupons = WC()->cart->get_coupons();
+
+			foreach ( $coupons as $coupon ) {
+				if ( ! $coupon->is_valid() ) continue;
+
 				if ( $coupon->get_free_shipping() ) {
 					$free_shipping_by_coupon = true;
 					break;
+				}
+
+				$discount_amount = WC()->cart->get_coupon_discount_amount( $coupon->get_code(), WC()->cart->display_cart_ex_tax );
+
+				if ( ! $ignore_discounts && $subtotal >= $discount_amount ) {
+					$subtotal -= $discount_amount;
 				}
 			}
 		}
